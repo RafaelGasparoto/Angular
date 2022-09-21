@@ -1,0 +1,16 @@
+.sidenav {
+  background-color: skyblue;
+  width: 350px;
+}
+
+.sidenav mat-list-item {
+  color: white;
+}
+
+.sidenav mat-list-item > span {
+  text-align: center;
+}
+
+.sidenav i {
+  padding-right: 10px;
+}
