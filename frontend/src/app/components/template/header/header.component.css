@@ -3,9 +3,9 @@
   align-items: center;
 }
 
-.header .a {
+.header a {
   display: flex;
-  align-items: center;
+  align-self: center;
   text-decoration: none;
 }
 
@@ -15,8 +15,4 @@
 
 .header .tittle-group {
   padding-left: 25px;
-}
-
-.header .tittle-group i {
-  padding-right: 10px;
 }

@@ -1,6 +1,6 @@
 .sidenav {
   background-color: skyblue;
-  width: 350px;
+  width: 200px;
 }
 
 .sidenav mat-list-item {
@@ -12,5 +12,10 @@
 }
 
 .sidenav i {
+  display: inline;
   padding-right: 10px;
+}
+
+.content {
+  padding: 16px;
 }

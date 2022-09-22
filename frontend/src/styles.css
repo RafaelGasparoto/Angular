@@ -11,3 +11,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .v-middle {
   vertical-align: middle;
 }
+
+.icon-text-align {
+  vertical-align: middle;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
