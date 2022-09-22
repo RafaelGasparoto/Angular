@@ -3,14 +3,6 @@
   width: 200px;
 }
 
-.sidenav mat-list-item {
-  color: white;
-}
-
-.sidenav mat-list-item > span {
-  text-align: center;
-}
-
 .sidenav i {
   display: inline;
   padding-right: 10px;
