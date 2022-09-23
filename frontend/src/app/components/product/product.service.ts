@@ -8,17 +8,13 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ProductService {
-   product: Product = {
-    name: 'dsa',
-    price: 10
-  }
   
   url = 'http://localhost:3001/products'
 
   constructor(private snackbar: MatSnackBar, private http: HttpClient) { }
 
-  createProduct(): Observable<Product>{
-    return this.http.post<Product>(this.url, this.product);
+  createProduct(product: Product): Observable<Product>{
+    return this.http.post<Product>(this.url, product);
   }
 
   showMessage(msg: string): void {
