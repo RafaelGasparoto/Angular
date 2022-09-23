@@ -1,10 +1,13 @@
 <mat-card class="mat-elevation-z4" style="margin: 10px;"> 
   <mat-card-content>
-    <button mat-raised-button (click)="navigateToProductCreate(1)">
+    <button mat-raised-button (click)="navigateToProductCreate(1)" color="primary">
       Novo Produto
     </button>
     <button mat-raised-button (click)="navigateToProductCreate(2)">
       Home
     </button>
+  </mat-card-content>
+  <mat-card-content>
+    <app-product-read></app-product-read>
   </mat-card-content>
 </mat-card>
