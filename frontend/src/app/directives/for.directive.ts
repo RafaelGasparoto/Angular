@@ -10,7 +10,7 @@ export class ForDirective implements OnInit {
   //por exemplo <tag *appFor="let n In [1, 2, 3]">{{ n }}</tag>
   
   @Input("appForIn")
-  numbers: number[] = [];
+  numbers!: number[];
 
   constructor(
     private container: ViewContainerRef,

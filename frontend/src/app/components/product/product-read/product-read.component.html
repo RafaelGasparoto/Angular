@@ -1,1 +1,7 @@
-<p>product-read works!</p>
+<mat-card  class="mat-elevation-z4" style="margin: 10px;">
+  <mat-card-content>
+    <ul>
+      <li *ngFor="let product of products">{{ product.name }}</li>
+    </ul>
+  </mat-card-content>  
+</mat-card>

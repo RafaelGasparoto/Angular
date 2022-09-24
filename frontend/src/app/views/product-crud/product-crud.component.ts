@@ -13,10 +13,12 @@ export class ProductCrudComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  navigateToProductCreate(a: number): void {
-    a == 1 ?
-    this.route.navigate(['products/create']) :
-    this.route.navigate(['']); 
+  navigateToProductCreate(): void {
+    this.route.navigate(['products/create'])
+  }
+  
+  navigateToProductsRead(): void {
+    this.route.navigate(['products/read'])
   }
 
 }

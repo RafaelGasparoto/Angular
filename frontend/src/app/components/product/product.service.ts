@@ -16,6 +16,10 @@ export class ProductService {
   createProduct(product: Product): Observable<Product>{
     return this.http.post<Product>(this.url, product);
   }
+
+  readProduct(): Observable<Product[]>{
+    return this.http.get<Product[]>(this.url);
+  }
   
   showMessage(msg: string): void {
     this.snackbar.open(msg, 'undo', {
