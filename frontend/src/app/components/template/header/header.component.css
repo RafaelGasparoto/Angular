@@ -5,8 +5,9 @@
 
 .header a {
   display: flex;
-  align-self: center;
+  align-items: center;;
   text-decoration: none;
+  color: black;
 }
 
 .header .logo {
