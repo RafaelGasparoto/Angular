@@ -20,6 +20,16 @@ export class ProductService {
   readProduct(): Observable<Product[]>{
     return this.http.get<Product[]>(this.url);
   }
+
+  readById(id: string): Observable<Product>{
+    const url = `${this.url}/${id}`
+    return this.http.get<Product>(url);
+  }
+
+  updateProduct(product: Product): Observable<Product>{
+    const url = `${this.url}/${product.id}`
+    return this.http.put<Product>(url, product);
+  }
   
   showMessage(msg: string): void {
     this.snackbar.open(msg, 'undo', {

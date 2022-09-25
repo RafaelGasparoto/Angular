@@ -17,3 +17,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   padding-right: 10px;
   padding-bottom: 5px;
 }
+
+.main-box {
+  margin-inline: 10px;
+  margin-bottom: 10px;
+  margin-top: 70px;
+}
