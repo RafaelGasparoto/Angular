@@ -30,6 +30,11 @@ export class ProductService {
     const url = `${this.url}/${product.id}`
     return this.http.put<Product>(url, product);
   }
+
+  deleteProduct(id: string): Observable<Product>{
+    const url = `${this.url}/${id}`
+    return this.http.delete<Product>(url)
+  }
   
   showMessage(msg: string): void {
     this.snackbar.open(msg, 'undo', {

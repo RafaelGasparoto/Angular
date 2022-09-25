@@ -2,22 +2,12 @@
   "products": [
     {
       "id": 1,
-      "name": "Caneta",
+      "name": "Canetaa",
       "price": 5.89
     },
     {
-      "id": 2,
-      "name": "Notebook",
-      "price": 1500.99
-    },
-    {
       "id": 3,
-      "name": "Mouse",
-      "price": 351.28
-    },
-    {
-      "id": 4,
-      "name": "adshjadsdsa",
+      "name": "dsaads",
       "price": "123"
     }
   ]

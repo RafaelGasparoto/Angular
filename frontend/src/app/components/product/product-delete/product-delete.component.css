@@ -1,0 +1,7 @@
+.title{
+  margin-bottom: 25px;
+}
+
+mat-card > button {
+  margin-right: 10px;
+}
